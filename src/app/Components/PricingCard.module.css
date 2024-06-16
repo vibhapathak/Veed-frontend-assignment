@@ -1,0 +1,127 @@
+
+.pricingCard{
+  height:430px;
+  background-color: white;
+  border: 1px solid blue;
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  width: 270px;
+  text-align: center;
+  margin: 0 auto;
+}
+/* components/PricingCard.module.css */
+.icon {
+  width: 15px; 
+  height: 15px;
+  margin-right: 4px; 
+ 
+}
+
+.pricingCard h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.pricingCard p {
+  color: #777;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.pricee{
+  display: flex;
+  flex-direction: row;
+  
+  text-align: left;
+
+}
+.currency {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.amount {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.billing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: block;
+  color: #777;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.align_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  min-width: 200px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  border-color: blue;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  color: #483d8b;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.savebutton {
+  margin-top: 12px;
+  margin-left: 10px;
+  font-size: 12px;
+  display: inline-block;
+  background-color: #D0FF99;
+  color: #006000;
+  font-weight: bold;
+  padding: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+  max-height: 12px;
+}
+.recommended {
+  position: relative; /* or absolute */
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 130px;
+  margin-top: 3400px;
+  max-height: 80px;
+  border-radius: 8px;
+  padding: 7px;
+  max-width: 100px;
+  color: white;
+  background-color: blue;
+}

@@ -1,0 +1,38 @@
+.signupbox {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1300PX;
+  height: 70px;
+  background-color: #dcdcdc;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 25px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  }
+  
+  .veed {
+  font-weight: bold;
+  font-size: 25px;
+  }
+  
+  .signUpButton {
+  font-weight: bold;
+  font-size: 15px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+  }
+  
+  .signUpButton:hover
+  {
+  background: #ECEEEE;
+  color: black;
+  }

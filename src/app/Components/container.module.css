@@ -1,0 +1,64 @@
+/* components/Container.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100wh;
+  height: 100vh;
+  background-color: #eceeee;
+}
+.page{
+  background-color: #eceeee;
+}
+.different_pricing_cards {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+  justify-content: center;
+  align-items: center;
+}
+.trial_box a {
+  color: blue; /* Set the color to blue */
+  text-decoration: underline; /* Underline the link */
+  
+}
+.trial_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.heading{
+  margin-top: 120px;
+  font-family: 48px BaseNeue, sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1300px; /* Use 100% width to span the container */
+  height: 350px; /* Adjust height as per your design */
+  color: #18191B;
+  text-align: center; /* Center align text */
+}
+.try_veed{
+  color: #777;
+  font-size: 25px;
+  margin-bottom: 20px;
+
+}
+.tag {
+  margin-top: 60px;
+  background-color: #ECEEEE;
+  font-weight: bold;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px; /* Use 100% width to span the container */
+  height: 100px; /* Adjust height as per your design */
+  color: #323232;
+  text-align: center; /* Center align text */
+}
